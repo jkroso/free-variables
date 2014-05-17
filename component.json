@@ -1,0 +1,12 @@
+{
+	"name": "free-variables",
+	"repo": "jkroso/free-variables",
+	"description": "get a list of variables used in a JS program",
+	"keywords": ["free variable"],
+	"dependencies": {
+    "jkroso/ast-children": "*",
+    "jkroso/unique": "*"
+  },
+	"scripts": ["index.js"],
+	"license": "MIT"
+}
