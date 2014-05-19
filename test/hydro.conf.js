@@ -13,7 +13,8 @@ module.exports = function(hydro) {
       require('hydro-bdd')
     ],
     globals: {
-      assert: require('assert/')
+      assert: require('assert/'),
+      eql: require('equals')
     }
   })
 }

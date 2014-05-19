@@ -3,7 +3,7 @@ var parse = require('esprima').parse
 var free = require('..')
 
 function test(js, vars){
-  assert.deepEqual(free(parse(js)), vars, JSON.stringify(js))
+  assert(eql(free(parse(js)), vars), JSON.stringify(js))
 }
 
 it('basic', function(){
