@@ -10,7 +10,7 @@ function freeIdents(node, env){
       })
       break
     case 'FunctionDeclaration':
-      env[node.id.name] = true
+      env[node.id.name] = true // falls through
     case 'FunctionExpression':
       env = Object.create(env)
       if (node.id) env[node.id.name] = true
