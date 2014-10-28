@@ -22,9 +22,6 @@ function freeIdents(node, env){
       return freeIdents(node.body, env).filter(function(name){
         return name != node.param.name
       })
-    case 'MemberExpression':
-      if (!node.computed) return freeIdents(node.object, env)
-      break
     case 'Identifier':
       if (!env[node.name]) return node.name
       break
