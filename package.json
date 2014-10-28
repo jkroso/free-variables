@@ -1,6 +1,6 @@
 {
   "name": "free-variables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "get a list of variables used in a JS program",
   "keywords": ["free variable"],
   "dependencies": {
@@ -11,7 +11,6 @@
     "assert": "jkroso/assert",
     "serve": "jkroso/serve",
     "hydro-html": "*",
-    "hydro-chai": "*",
     "hydro-bdd": "*",
     "hydro-dot": "*",
     "esprima": "*",
@@ -20,7 +19,6 @@
     "jsmd": "*"
   },
   "repository": "git://github.com/jkroso/free-variables.git",
-  "bugs": "https://github.com/jkroso/free-variables/issues",
   "author": "Jake Rosoman",
   "files": ["index.js"],
   "license": "MIT"
